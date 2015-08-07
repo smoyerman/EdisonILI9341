@@ -1,6 +1,9 @@
 """ Showing a picture """
 import Image
 
+disp = ILI9341.ILI9341()
+disp.begin()
+
 # Load the image
 image = Image.open('/home/root/BlueFrog_processed.jpg')
 
