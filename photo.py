@@ -1,5 +1,6 @@
 """ Showing a picture """
 import Image
+import ILI9341
 
 disp = ILI9341.ILI9341()
 disp.begin()
